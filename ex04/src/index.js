@@ -5,9 +5,9 @@ var players = {
 11:"Edin Dzeko"
 };
 function myFunction(myObj){
-    var player = myObj["10"];
     var playerNumber = 10;
-    return {player, playerNumber};
+    var player = myObj[playerNumber];
+    return {player};
 }
 console.log(myFunction(players));
 
